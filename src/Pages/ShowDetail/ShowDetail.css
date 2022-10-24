@@ -1,0 +1,52 @@
+.showFull {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+}
+
+.showFull img {
+    width: 390px;
+}
+
+.right_side {
+    background-color: whitesmoke;
+    padding: 40px;
+}
+
+.foods {
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lunch {
+    margin: 40px 25px 25px 20px;
+}
+
+.travel {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.foodTitle {
+    margin-top: 10px;
+}
+
+li {
+    text-align: start;
+}
+
+.bookingBtn {
+    background-color: #a47f03;
+    margin: 15px;
+    padding: 8px 70px 8px 70px;
+    border: none;
+    border-radius: 5px;
+}
+
+.bookingBtn:hover {
+    color: white;
+}

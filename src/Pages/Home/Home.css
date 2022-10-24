@@ -1,0 +1,25 @@
+.extra {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.extra2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5;
+}
+
+.btn {
+    background-color: #a47f03;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.text-white {
+    color: #a47f03;
+    font-size: 40px;
+}
